@@ -188,6 +188,7 @@ function apiFetch( options ) {
 
 apiFetch.use = registerMiddleware;
 apiFetch.setFetchHandler = setFetchHandler;
+apiFetch.defaultFetchHandler = defaultFetchHandler;
 
 apiFetch.createNonceMiddleware = createNonceMiddleware;
 apiFetch.createPreloadingMiddleware = createPreloadingMiddleware;
